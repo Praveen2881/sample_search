@@ -1,0 +1,16 @@
+database:
+  url:
+
+azure:
+  storage_connection_string: 
+  service_bus_connection_string: 
+  event_grid_endpoint: 
+
+mosaicdb:
+  mosaicdb_uri: "https://your-mosaicdb-instance"
+  mosaic_api_key: "your-secret-api-key"
+  mosaic_model_endpoint: "https://your-model-serving-endpoint"
+
+embedding:
+  provider: "openai"
+  api_key:   

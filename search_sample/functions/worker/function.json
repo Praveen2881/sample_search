@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "name": "msg",
+      "queueName": "jobs-queue",
+      "connection": "SERVICEBUS_CONNECTION_STRING",
+      "direction": "in"
+    }
+  ],
+  "scriptFile": "__init__.py"
+}

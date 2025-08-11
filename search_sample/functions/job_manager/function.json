@@ -1,0 +1,17 @@
+{
+  "bindings": [
+    {
+      "type": "eventGridTrigger",
+      "name": "event",
+      "direction": "in"
+    },
+    {
+      "type": "serviceBus",
+      "name": "msg",
+      "queueName": "jobs-queue",
+      "connection": "SERVICEBUS_CONNECTION_STRING",
+      "direction": "out"
+    }
+  ],
+  "scriptFile": "__init__.py"
+}
